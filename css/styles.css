@@ -1,10 +1,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-div{
-    width:100%; height:100%; margin:0; padding:0;
+.row:first-child {
+     --bs-gutter-x: 0rem; 
 }
 
 #title{
@@ -46,7 +47,7 @@ div{
 
 /* Title Image */
 .title-img{
-    width: 60%;
+    width: 200px;
     transform: rotate(25deg);
 }
 
@@ -86,8 +87,63 @@ h1{
     color: #8f8f8f;
 }
 
+/* Testimonials */
 
+#testimonials{  
+    text-align: center;
+    background-color:#ff4c68 ;
+    color: white;
 
+}
 
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+.test-h{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+     margin: 3%; 
+     padding: 0% 2%;
+    text-align: center;
+}
+
+.col-md-4{
+    margin-bottom: 1rem;;
+}
+
+.card-deck{
+    padding: 2% 2%;
+}
+
+.btn-deck{
+    margin-top: 2.5rem;
+}
 
 
